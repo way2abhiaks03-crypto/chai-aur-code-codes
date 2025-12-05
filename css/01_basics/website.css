@@ -1,0 +1,56 @@
+<style>
+        .tahoma-font{
+            font-family:Tahoma;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .year-font{
+            font-family: Arial;
+            font-weight: bold;
+            width: 350px;
+            font-size: 26px;
+            line-height: 25px;
+            margin-bottom: 8px;
+        }
+        .sales-sales{
+            font-family: Arial;
+            color: red;
+            font-style: italic;
+            font-size: 18px;
+            margin-top: 0px;
+        }
+    .title{
+        font-family: Verdana;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: bold;
+        margin-bottom: 3px;
+        font-size: 18px;
+
+    }
+    .pro-class{
+        font-family: Verdana;
+        margin-top: 0px;
+        margin-bottom: 18px;
+        color: gray;
+    }
+    .content{
+        font-family: Verdana;
+        width: 300px;
+        line-height: 22px;
+        margin-bottom: 18px;
+    }
+    .button{
+        background-color: green;
+        color: white;
+        font-family: Verdana;
+        border:none;
+        padding: 8px 16px 8px 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-bottom: 18px;
+
+    }
+    .button:hover{
+        opacity: 0.8;
+    } 
