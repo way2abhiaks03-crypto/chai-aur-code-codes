@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>youtube</title>
-  <style>
-    .image{
-      width: 300px;
-    }
-    .searchbar{
-      font-size: 20px;
-      margin-left:12px;
-    }
-  </style>
-</head>
-<body>
-  <img class="image" src="/image/thumbnail-1.png" alt="image">
-  <input class="searchbar" type="text" placeholder="search">
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>youtube</title>
+    <style>
+      .image {
+        width: 300px;
+        display: block;
+      }
+      .searchbar {
+        font-size: 20px;
+        margin-left: 12px;
+        display: block;
+      }
+      .video_title {
+        width: 300px;
+      }
+      .video-preview {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="searchbar" type="text" placeholder="search" />
+
+    <div class="video-preview">
+      <img class="image" src="/image/thumbnail-1.png" alt="image" />
+
+      <p class="video_title">
+        Talking Tech and AI with Google CEO Sundar Pichai!
+      </p>
+      <p class="video_author">Marques Brownlee</p>
+      <p class="video_stats">3.4M views · 6 months ago</p>
+    </div>
+
+    <div class="video-preview">
+      <img class="image" src="/image/thumbnail-2.webp" alt="image" />
+
+      <p class="video_title">
+        Try Not To Laugh Challenge #9
+      </p>
+      <p class="video_author">Markiplier</p>
+      <p class="video_stats">19M views · 4 years ago</p>
+    </div>
+  </body>
 </html>
